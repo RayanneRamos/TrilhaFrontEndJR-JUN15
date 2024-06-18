@@ -1,0 +1,42 @@
+.header {
+  padding: 24px;
+
+  height: 82px;
+
+  background-color: #222222;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 314px;
+  margin-right: 314px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navigation {
+  display: flex;
+  gap: 24px;
+}
+
+.navigation-link {
+  font-size: 16px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  color: var(--white);
+
+  transition: all 0.4s;
+}
+
+.navigation-link:hover {
+  color: #dcdcdc;
+}
