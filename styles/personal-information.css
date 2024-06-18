@@ -1,0 +1,49 @@
+.personal-information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 98px;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 42px;
+  font-weight: 600;
+
+  text-align: center;
+
+  margin-top: 42px;
+}
+
+strong {
+  color: var(--red);
+}
+
+.title {
+  font-size: 24px;
+  
+  text-align: center;
+
+  margin-top: 12px;
+}
+
+.description {
+  font-size: 18px;
+
+  text-align: center;
+}
+
