@@ -47,3 +47,19 @@ strong {
   text-align: center;
 }
 
+.experience {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 88px;
+}
+
+.techs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 60px;
+
+  margin-top: 48px;
+}
