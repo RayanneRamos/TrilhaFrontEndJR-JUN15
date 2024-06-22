@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "hobbieName": "Academia",
+    "hobbieDescription": "./assets/hobbies/gym.jpg"
+  },
+  {
+    "id": "2",
+    "hobbieName": "Basquete",
+    "hobbieDescription": "./assets/hobbies/basketball.jpg"
+  },
+  {
+    "id": "3",
+    "hobbieName": "Cinema",
+    "hobbieDescription": "./assets/hobbies/cine.jpg"
+  },
+  {
+    "id": "4",
+    "hobbieName": "Corrida",
+    "hobbieDescription": "./assets/hobbies/run.jpg"
+  },
+  {
+    "id": "5",
+    "hobbieName": "Desenho",
+    "hobbieDescription": "./assets/hobbies/drawing.jpg"
+  },
+  {
+    "id": "6",
+    "hobbieName": "Dirigir",
+    "hobbieDescription": "./assets/hobbies/driveacar.jpg"
+  },
+  {
+    "id": "7",
+    "hobbieName": "Editar vídeo",
+    "hobbieDescription": "./assets/hobbies/editingvideo.jpg"
+  },
+  {
+    "id": "8",
+    "hobbieName": "Fazer música",
+    "hobbieDescription": "./assets/hobbies/makingamusic.jpg"
+  },
+  {
+    "id": "9",
+    "hobbieName": "Futebol",
+    "hobbieDescription": "./assets/hobbies/soccer.jpg"
+  },
+  {
+    "id": "10",
+    "hobbieName": "Futebol Americano",
+    "hobbieDescription": "./assets/hobbies/nfl.jpg"
+  },
+  {
+    "id": "11",
+    "hobbieName": "Jogar videogame",
+    "hobbieDescription": "./assets/hobbies/playvideogame.jpg"
+  },
+  {
+    "id": "12",
+    "hobbieName": "Ler",
+    "hobbieDescription": "./assets/hobbies/read.jpg"
+  },
+  {
+    "id": "13",
+    "hobbieName": "Moda",
+    "hobbieDescription": "./assets/hobbies/fashion.jpg"
+  },
+  {
+    "id": "14",
+    "hobbieName": "Netflix",
+    "hobbieDescription": "./assets/hobbies/watchtv.jpg"
+  },
+  {
+    "id": "15",
+    "hobbieName": "Praia",
+    "hobbieDescription": "./assets/hobbies/beach.jpg"
+  },
+  {
+    "id": "16",
+    "hobbieName": "Skate",
+    "hobbieDescription": "./assets/hobbies/skate.jpg"
+  },
+  {
+    "id": "17",
+    "hobbieName": "Surfe",
+    "hobbieDescription": "./assets/hobbies/surf.jpg"
+  },
+  {
+    "id": "18",
+    "hobbieName": "Tenis",
+    "hobbieDescription": "./assets/hobbies/tennis.jpg"
+  },
+  {
+    "id": "19",
+    "hobbieName": "Viajar",
+    "hobbieDescription": "./assets/hobbies/travel.jpg"
+  },
+  {
+    "id": "20",
+    "hobbieName": "Violão",
+    "hobbieDescription": "./assets/hobbies/guitar.jpg"
+  }
+]
