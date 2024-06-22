@@ -1,0 +1,99 @@
+.hobbies {
+  margin-bottom: 24px;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 300px;
+}
+
+.hobbies-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 16px;
+}
+
+.hobbies-title {
+  font-size: 34px;
+  font-weight: 700;
+
+  margin-top: 42px;
+}
+
+.divider {
+  width: 345px;
+  height: 2px;
+
+  background-color: var(--red);
+
+  margin-top: 64px;
+}
+
+.hobbies-content {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+
+  gap: 24px;
+
+}
+
+.hobbies-card-container {
+  margin-top: 24px;
+}
+
+.hobbies-card-content {
+  width: 282px;
+  height: 433px;
+
+  border-radius: 18px;
+  
+
+  position: relative;
+}
+
+.hobbies-card-image {
+  width: 282px;
+  height: 433px;
+
+  border-radius: 18px;
+}
+
+.hobbies-card-info {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px 20px;
+  padding: 20px;
+
+  position: absolute;
+
+  bottom: 0;
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px 10px;
+
+  opacity: 0; /* Inicialmente escondido */
+  transition: opacity 0.3s ease; 
+  
+}
+
+.hobbies-card-title {
+  font-size: 24px;
+  color: var(--white);
+  margin: 0;
+
+  text-align: center;
+}
+
+.hobbies-card-content:hover .hobbies-card-info {
+  opacity: 1; /* Aparece quando hover */
+}
+
+.hobbies-card-content:hover .hobbies-card-image {
+  transform: scale(1.05); /* Zoom na imagem quando hover */
+}
