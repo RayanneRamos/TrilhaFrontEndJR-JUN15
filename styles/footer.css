@@ -7,7 +7,7 @@
   gap: 12px;
   padding: 12px;
 
-  background-color: #222222;
+  background-color: var(--primary-color);
 }
 
 .copyright {

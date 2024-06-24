@@ -77,7 +77,7 @@
 
   margin: 10px 10px;
 
-  opacity: 0; /* Inicialmente escondido */
+  opacity: 0;
   transition: opacity 0.3s ease; 
   
 }
@@ -91,9 +91,9 @@
 }
 
 .hobbies-card-content:hover .hobbies-card-info {
-  opacity: 1; /* Aparece quando hover */
+  opacity: 1; 
 }
 
 .hobbies-card-content:hover .hobbies-card-image {
-  transform: scale(1.05); /* Zoom na imagem quando hover */
+  transform: scale(1.05);
 }

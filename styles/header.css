@@ -3,7 +3,7 @@
 
   height: 82px;
 
-  background-color: #222222;
+  background-color: var(--primary-color);
 }
 
 .header-container {
@@ -24,7 +24,7 @@
 }
 
 .title-link:hover {
-  color: #dcdcdc;
+  color: var(--hover-link);
 }
 
 .title {
@@ -49,5 +49,5 @@
 }
 
 .navigation-link:hover {
-  color: #dcdcdc;
+  color: var(--hover-link);
 }
