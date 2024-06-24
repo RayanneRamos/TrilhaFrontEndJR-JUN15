@@ -14,7 +14,7 @@
 }
 
 .motivation-title {
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 700;
 
   margin-top: 42px;
@@ -33,7 +33,7 @@
 
   text-align: justify;
 
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .motivation-quotes {
@@ -48,7 +48,7 @@
 
   margin-left: 200px;
 
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
 
   color: var(--white);

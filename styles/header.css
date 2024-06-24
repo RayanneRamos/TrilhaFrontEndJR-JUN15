@@ -3,7 +3,7 @@
 
   height: 82px;
 
-  background-color: var(--primary-color);
+  background-color: #222222;
 }
 
 .header-container {
@@ -19,16 +19,14 @@
 .title-link {
   text-decoration: none;
   color: var(--white);
-
-  transition: all 0.4s;
 }
 
 .title-link:hover {
-  color: var(--hover-link);
+  color: #dcdcdc;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -38,7 +36,6 @@
 }
 
 .navigation-link {
-  font-size: 16px;
   font-weight: 600;
 
   text-decoration: none;
@@ -49,5 +46,5 @@
 }
 
 .navigation-link:hover {
-  color: var(--hover-link);
+  color: #dcdcdc;
 }

@@ -5,6 +5,7 @@
   justify-content: center;
 
   margin-top: 98px;
+  margin-bottom: 98px;
 }
 
 .image {
@@ -21,7 +22,7 @@
 }
 
 .name {
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: 600;
 
   text-align: center;
@@ -34,7 +35,7 @@ strong {
 }
 
 .title {
-  font-size: 24px;
+  font-size: 1.5rem;
   
   text-align: center;
 
@@ -42,13 +43,13 @@ strong {
 }
 
 .description {
-  font-size: 18px;
+  font-size: 1.125rem;
 
   text-align: center;
 }
 
 .experience {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 
   margin-top: 88px;
