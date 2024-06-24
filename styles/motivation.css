@@ -1,0 +1,61 @@
+.motivation-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 300px;
+}
+
+.motivation-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  gap: 16px;
+}
+
+.motivation-title {
+  font-size: 34px;
+  font-weight: 700;
+
+  margin-top: 42px;
+}
+
+.motivation-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.motivation-paragraph {
+  width: 80%;
+
+  text-align: justify;
+
+  font-size: 18px;
+}
+
+.motivation-quotes {
+  display: flex;
+
+  margin-top: 24px;
+}
+
+.motivation-text {
+  width: 60%;
+  text-align: center;
+
+  margin-left: 200px;
+
+  font-size: 28px;
+  font-weight: 700;
+
+  color: var(--white);
+
+  margin-bottom: 42px;
+}
+
+.motivation-quotation-marks {
+  color: var(--red);
+}
