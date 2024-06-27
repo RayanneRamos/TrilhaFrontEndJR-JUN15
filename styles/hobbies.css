@@ -108,3 +108,15 @@
     grid-template-columns: repeat(2 , 420px);
   }
 }
+
+@media screen and (max-width: 375px) {
+  .hobbies-container {
+    margin: 24px;
+  }
+
+  .hobbies-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

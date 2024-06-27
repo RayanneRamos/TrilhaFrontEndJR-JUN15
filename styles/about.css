@@ -84,3 +84,31 @@
     margin-top: 24px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .about-tile {
+    font-size: 24px;
+  }
+
+  .divider {
+    display: none;
+  }
+  
+  .about-info-description-container {
+    display: flex;
+    flex-direction: column;
+  }  
+  
+  .description-info {
+    width: 100%;
+  }
+
+  .info-important {
+    font-size: 1rem;
+  }
+
+  .image-about {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+}

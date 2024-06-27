@@ -31,3 +31,36 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 });
+
+const button = document.getElementById("menu-hamburger");
+
+function handleClickOpenMenu() {
+  button.classList.toggle("active");
+
+  const navLinks = document.getElementById("navigation-link");
+  navLinks.classList.toggle("active");
+
+  if (navLinks.classList.contains("active")) {
+    navLinks.classList.remove("hide");
+    navLinks.classList.add("show");
+  } else {
+    navLinks.classList.remove("show");
+    navLinks.classList.add("hide");
+    setTimeout(() => {
+      navLinks.classList.remove("active");
+    }, 300);
+  }
+}
+
+const menuLinks = document.querySelectorAll(".navigation-link a");
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    const navLinks = document.getElementById("navigation-link");
+    navLinks.classList.remove("show");
+    navLinks.classList.add("hide");
+    setTimeout(() => {
+      navLinks.classList.remove("active");
+      button.classList.remove("active");
+    }, 300);
+  });
+});

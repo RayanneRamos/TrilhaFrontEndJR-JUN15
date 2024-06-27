@@ -64,3 +64,37 @@ strong {
 
   margin-top: 48px;
 }
+
+@media screen and (max-width: 375px) {
+  .personal-information-container {
+    margin: 24px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 16px;
+
+    line-height: 30px;
+  }
+
+  .experience {
+    margin-top: 40px;
+  }
+
+  .techs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 24px;
+
+    margin-top: 24px;
+  }
+}
