@@ -36,6 +36,13 @@
 }
 
 .navigation-link {
+  display: flex;
+  gap: 24px;
+
+  text-decoration: none;
+}
+
+.link {
   font-weight: 600;
 
   text-decoration: none;
@@ -45,7 +52,7 @@
   transition: all 0.4s;
 }
 
-.navigation-link:hover {
+.link:hover {
   color: #dcdcdc;
 }
 
