@@ -35,6 +35,46 @@
   gap: 24px;
 }
 
+.menu-hamburger-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+
+  row-gap: 4px;
+  
+  width: 100px;
+  height: 30px;
+
+  border: 0;
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.menu-hamburger-line {
+  width: 30px;
+  height: 2px;
+
+  background: white;
+  border-radius: 10px;
+
+  transition: all 0.4s;
+}
+
+button.active span:nth-child(2) {
+  opacity: 0;
+
+  width: 0px;
+}
+
+button.active span:nth-child(1) {
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+button.active span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -4px);
+}
+
 .navigation-link {
   display: flex;
   gap: 24px;
