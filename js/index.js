@@ -36,6 +36,7 @@ const button = document.getElementById("menu-hamburger");
 
 function handleClickOpenMenu() {
   button.classList.toggle("active");
+<<<<<<< HEAD
 
   const navLinks = document.getElementById("navigation-link");
   navLinks.classList.toggle("active");
@@ -64,3 +65,6 @@ menuLinks.forEach((link) => {
     }, 300);
   });
 });
+=======
+}
+>>>>>>> 53cf6c2fc09fdcb51c391850503456939413d36a
