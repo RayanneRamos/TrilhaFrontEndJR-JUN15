@@ -97,3 +97,14 @@
 .hobbies-card-content:hover .hobbies-card-image {
   transform: scale(1.05); 
 }
+
+@media screen and (max-width: 768px) {
+  .hobbies-container {
+    margin: 24px;
+  }
+
+  .hobbies-content {
+    display: grid;
+    grid-template-columns: repeat(2 , 420px);
+  }
+}

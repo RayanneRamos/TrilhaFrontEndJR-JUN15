@@ -59,3 +59,18 @@
 .motivation-quotation-marks {
   color: var(--red);
 }
+
+@media screen and (max-width: 768px) {
+  .motivation-container {
+    margin: 24px;
+  }
+
+  .motivation-paragraph {
+    width: 100%;
+  }
+
+  .motivation-text {
+    width: 100%;
+    margin: 0;
+  }
+}

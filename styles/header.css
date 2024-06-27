@@ -48,3 +48,9 @@
 .navigation-link:hover {
   color: #dcdcdc;
 }
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    margin: 0;
+  }
+}

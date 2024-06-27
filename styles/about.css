@@ -62,3 +62,25 @@
 
   margin-right: 240px;
 }
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    margin: 24px;
+  }
+
+  .description-info {
+    width: 380px;
+    
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .info-important {
+    font-size: 1.125rem;
+    text-align: justify;
+  }
+
+  .image-about {
+    margin-top: 24px;
+  }
+}
