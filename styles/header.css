@@ -157,3 +157,9 @@ button.active span:nth-child(3) {
     margin: 0;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  .header-container {
+    margin: 0;
+  }
+}
