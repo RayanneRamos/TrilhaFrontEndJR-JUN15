@@ -31,3 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 });
+
+const button = document.getElementById("menu-hamburger");
+
+function handleClickOpenMenu() {
+  button.classList.toggle("active");
+}
