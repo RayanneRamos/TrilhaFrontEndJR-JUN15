@@ -112,3 +112,25 @@
     margin-left: 20px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    margin: 40px;
+  }
+
+  .description-info {
+    width: 600px;
+    
+    font-size: 1.25rem;
+    text-align: justify;
+  }
+
+  .info-important {
+    font-size: 1.375rem;
+    text-align: justify;
+  }
+
+  .image-about {
+    margin-top: 40px;
+  }
+}

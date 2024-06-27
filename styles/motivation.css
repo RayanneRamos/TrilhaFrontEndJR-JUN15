@@ -74,3 +74,18 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .motivation-container {
+    margin: 40px;
+  }
+
+  .motivation-paragraph {
+    width: 100%;
+  }
+
+  .motivation-text {
+    width: 100%;
+    margin: 0;
+  }
+}
