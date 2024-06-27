@@ -18,6 +18,9 @@
   font-weight: 700;
 
   margin-top: 42px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .divider {
@@ -27,6 +30,9 @@
   background-color: var(--red);
 
   margin-top: 64px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .about-info-description-container {
@@ -61,15 +67,24 @@
   height: 300px;
 
   margin-right: 240px;
+
+  animation: zoomIn;
+  animation-duration: 1.2s;
 }
 
 @media screen and (max-width: 375px) {
   .about-tile {
     font-size: 24px;
+
+    animation: fadeInLeft;
+    animation-duration: 0.8s;
   }
 
   .divider {
     display: none;
+
+    animation: fadeInLeft;
+    animation-duration: 0.8s;
   }
   
   .about-info-description-container {

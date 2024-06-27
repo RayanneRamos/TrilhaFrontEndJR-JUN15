@@ -13,6 +13,9 @@
   height: 250px;
 
   border-radius: 50%;
+
+  animation: zoomIn;
+  animation-duration: 1.2s;
 }
 
 .info {
@@ -28,6 +31,9 @@
   text-align: center;
 
   margin-top: 42px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 strong {
@@ -53,6 +59,9 @@ strong {
   font-weight: 600;
 
   margin-top: 88px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .techs-container {
@@ -63,6 +72,9 @@ strong {
   gap: 60px;
 
   margin-top: 48px;
+
+  animation: zoomIn;
+  animation-duration: 1.2s;
 }
 
 @media screen and (max-width: 375px) {
@@ -72,6 +84,9 @@ strong {
 
   .name {
     font-size: 24px;
+
+    animation: fadeInLeft;
+    animation-duration: 0.8s;
   }
 
   .title {

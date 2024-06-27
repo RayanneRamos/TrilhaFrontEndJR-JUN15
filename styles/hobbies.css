@@ -22,6 +22,9 @@
   font-weight: 700;
 
   margin-top: 42px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .divider {
@@ -31,6 +34,9 @@
   background-color: var(--red);
 
   margin-top: 64px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .hobbies-content {
@@ -53,6 +59,9 @@
   
 
   position: relative;
+
+  animation: zoomIn;
+  animation-duration: 1.2s;
 }
 
 .hobbies-card-image {

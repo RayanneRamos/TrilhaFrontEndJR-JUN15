@@ -18,6 +18,14 @@
   font-weight: 700;
 
   margin-top: 42px;
+
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
+}
+
+.divider {
+  animation: fadeInLeft;
+  animation-duration: 0.8s;
 }
 
 .motivation-content {
@@ -54,6 +62,9 @@
   color: var(--white);
 
   margin-bottom: 42px;
+
+  animation: flipInX;
+  animation-duration: 0.8s;
 }
 
 .motivation-quotation-marks {
