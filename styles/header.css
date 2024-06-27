@@ -96,7 +96,7 @@ button.active span:nth-child(3) {
   color: #dcdcdc;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .header-container {
     width: 100%;
     margin: 0;
@@ -146,19 +146,19 @@ button.active span:nth-child(3) {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .header-container {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .header-container {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .header-container {
     margin: 0;
   }

@@ -107,7 +107,7 @@
   transform: scale(1.05); 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .hobbies-container {
     margin: 24px;
   }
@@ -119,7 +119,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .hobbies-container {
     margin: 24px;
   }
@@ -130,7 +130,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .hobbies-container {
     margin: 40px;
   }
@@ -141,7 +141,7 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .hobbies-container {
     margin: 40px;
   }

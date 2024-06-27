@@ -71,7 +71,7 @@
   color: var(--red);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .motivation-container {
     margin: 24px;
   }
@@ -86,7 +86,22 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .motivation-container {
+    margin: 24px;
+  }
+
+  .motivation-paragraph {
+    width: 100%;
+  }
+
+  .motivation-text {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .motivation-container {
     margin: 40px;
   }
@@ -101,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .motivation-container {
     margin: 40px;
   }
